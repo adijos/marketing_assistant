@@ -4,7 +4,6 @@ from streamlit_chat import message
 
 ### set org id and api key
 # not needed??? openai.organization =
-openai.api_key = "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"
 #model_engine = "gpt-3.5-turbo"
 
 ### Initialize session state variables
