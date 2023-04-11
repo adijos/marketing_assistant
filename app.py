@@ -3,8 +3,9 @@ import streamlit as st
 from streamlit_chat import message
 
 ### set org id and api key
-# not needed??? openai.organization =
 #model_engine = "gpt-3.5-turbo"
+#klarity api key
+openai.api_key = "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"
 
 ### Initialize session state variables
 if 'generated' not in st.session_state:
